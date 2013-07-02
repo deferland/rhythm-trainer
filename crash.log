@@ -1,0 +1,129 @@
+Incident Identifier: 8680BBA6-0B37-4D7C-848B-B620BF7EA410
+CrashReporter Key:   112cad0a2b7e81423af27ec8d780faeffcb9b6a8
+Process:         Rhythms [153]
+Path:            /var/mobile/Applications/AFAF15B7-3AB5-4530-89C3-2E6FC36B11E4/Rhythms.app/Rhythms
+Identifier:      Rhythms
+Version:         ??? (???)
+Code Type:       ARM (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2009-01-14 16:35:40.908 -0500
+OS Version:      iPhone OS 2.2 (5G77)
+Report Version:  103
+
+Exception Type:  EXC_CRASH (SIGABRT)
+Exception Codes: 0x00000000, 0x00000000
+Crashed Thread:  0
+
+Thread 0 Crashed:
+0   libSystem.B.dylib             	0x31459c58 0x313f6000 + 408664
+1   libSystem.B.dylib             	0x31459c46 0x313f6000 + 408646
+2   libSystem.B.dylib             	0x31459c3a 0x313f6000 + 408634
+3   libSystem.B.dylib             	0x31474424 0x313f6000 + 517156
+4   libstdc++.6.dylib             	0x30075b3c 0x3000c000 + 432956
+5   libobjc.A.dylib               	0x300c20f8 0x300bb000 + 28920
+6   libstdc++.6.dylib             	0x300730d0 0x3000c000 + 422096
+7   libstdc++.6.dylib             	0x300731d8 0x3000c000 + 422360
+8   libobjc.A.dylib               	0x300c1f84 0x300bb000 + 28548
+9   CoreFoundation                	0x3029a598 0x30237000 + 406936
+10  CoreFoundation                	0x3029a538 0x30237000 + 406840
+11  Foundation                    	0x306a9d38 0x3066c000 + 253240
+12  Foundation                    	0x3066f818 0x3066c000 + 14360
+13  Rhythms                       	0x000088f8 0x1000 + 30968
+14  UIKit                         	0x30a9a77c 0x30a45000 + 350076
+15  UIKit                         	0x30bfc910 0x30a45000 + 1800464
+16  UIKit                         	0x30c00630 0x30a45000 + 1816112
+17  UIKit                         	0x30c001b8 0x30a45000 + 1814968
+18  UIKit                         	0x30a9e12c 0x30a45000 + 364844
+19  UIKit                         
+	0x30a96ee0 0x30a45000 + 335584
+20  UIKit                         	0x30a9c378 0x30a45000 + 357240
+21  Rhythms                       	0x00008676 0x1000 + 30326
+22  Rhythms                       	0x00003800 0x1000 + 10240
+23  Rhythms                       	0x000041e8 0x1000 + 12776
+24  Rhythms                       	0x00010866 0x1000 + 63590
+25  Rhythms                       	0x00010ae4 0x1000 + 64228
+26  Foundation                    	0x306942a0 0x3066c000 + 164512
+27  CoreFoundation                	0x30269d88 0x30237000 + 208264
+28  CoreFoundation                	0x30269320 0x30237000 + 205600
+29  GraphicsServices              	0x31563e58 0x31560000 + 15960
+30  UIKit                         	0x30a4feb0 0x30a45000 + 44720
+31  UIKit                         	0x30a59614 0x30a45000 + 83476
+32  Rhythms                       	0x000020b6 0x1000 + 4278
+33  Rhythms                       	0x0000202c 0x1000 + 4140
+
+Thread 1:
+0   libSystem.B.dylib             	0x31467aa4 0x313f6000 + 465572
+1   libSystem.B.dylib             	0x31464b70 0x313f6000 + 453488
+2   CoreFoundation                	0x30269748 0x30237000 + 206664
+3   CoreFoundation                	0x30269320 0x30237000 + 205600
+4   WebCore                       	0x32bb24c4 0x325e8000 + 6071492
+5   libSystem.B.dylib             	0x3145d786 0x313f6000 + 423814
+
+Thread 2:
+0   libSystem.B.dylib             	0x31467aa4 0x313f6000 + 465572
+1   libSystem.B.dylib             	0x31464b70 0x313f6000 + 453488
+2   GraphicsServices              	0x31566ca8 0x31560000 + 27816
+3   libSystem.B.dylib             	0x3145d786 0x313f6000 + 423814
+
+Thread 3:
+0   libSystem.B.dylib             	0x31467aa4 0x313f6000 + 465572
+1   libSystem.B.dylib             	0x31464b70 0x313f6000 + 453488
+2   CoreFoundation                	0x30269748 0x30237000 + 206664
+3   CoreFoundation                	0x30269320 0x30237000 + 205600
+4   AudioToolbox                  	0x3490815c 0x34872000 + 614748
+5   AudioToolbox                  	0x3490bed8 0x34872000 + 630488
+6   AudioToolbox                  	0x348cc2e4 0x34872000 + 369380
+7   libSystem.B.dylib             	0x3145d786 0x313f6000 + 423814
+
+Thread 0 crashed with ARM Thread State:
+    r0: 0x00000000    r1: 0x00000000      r2: 0x00000001      r3: 0x393fab24
+    r4: 0x00000006    r5: 0x2fffef30      r6: 0x3823f118      r7: 0x2fffef40
+    r8: 0x30136a38    r9: 0x394306d0     r10: 0x38239dfc     r11: 0x00000000
+    ip: 0x00000025    sp: 0x2fffef40      lr: 0x31459c4d      pc: 0x31459c58
+  cpsr: 0x00000010
+
+Binary Images:
+    0x1000 -    0x19fff +Rhythms ??? (???) <2ceef2e1039c2c18ff101930f22ca29b> /var/mobile/Applications/AFAF15B7-3AB5-4530-89C3-2E6FC36B11E4/Rhythms.app/Rhythms
+   0xcd000 -    0xcefff  dns.so ??? (???) <3f79d24430f9255757cde034391a46c6> /usr/lib/info/dns.so
+0x2fe00000 - 0x2fe22fff  dyld ??? (???) <2f5192f1bdcac11e60c921563345ffef> /usr/lib/dyld
+0x30000000 - 0x30008fff  libgcc_s.1.dylib ??? (???) <2c68d752c35e553ce4944253c3e7aa02> /usr/lib/libgcc_s.1.dylib
+0x3000c000 - 0x30079fff  libstdc++.6.dylib ??? (???) <e8a4186d06b8f644d60454d2e8ff8620> /usr/lib/libstdc++.6.dylib
+0x300bb000 - 0x301a8fff  libobjc.A.dylib ??? (???) <1828141bd7d9671bd8afa14b60a3150b> /usr/lib/libobjc.A.dylib
+0x301f9000 - 0x30200fff  libbsm.dylib ??? (???) <a256ffa60bfdbd81fa888a94303d0c0d> /usr/lib/libbsm.dylib
+0x30204000 - 0x30212fff  libz.1.dylib ??? (???) <e7dba0e2768521a3365581e687e777ad> /usr/lib/libz.1.dylib
+0x30237000 - 0x302ddfff  CoreFoundation ??? (???) <1a844b378fa72af344fd6a1cc6b46c2b> /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+0x303a1000 - 0x30430fff  libsqlite3.0.dylib ??? (???) <9ef1265362685c0deea15c0ac093cc00> /usr/lib/libsqlite3.0.dylib
+0x3066c000 - 0x3073ffff  Foundation ??? (???) <b779fc829e0bf174251231edffd72860> /System/Library/Frameworks/Foundation.framework/Foundation
+0x3085c000 - 0x30866fff  CoreVideo ??? (???) <8475e1b2b5094f0d1db7474610fbc664> /System/Library/PrivateFrameworks/CoreVideo.framework/CoreVideo
+0x30875000 - 0x30884fff  AppSupport ??? (???) <88c86c3d8bbc1d251bddba38dc4ba2ac> /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+0x30891000 - 0x30896fff  liblockdown.dylib ??? (???) <ed30623ac9d88a7ff1d2bf6443550ff8> /usr/lib/liblockdown.dylib
+0x30a45000 - 0x30cc7fff  UIKit ??? (???) <e9e8896decf7f85bc71507fab6c4ec4f> /System/Library/Frameworks/UIKit.framework/UIKit
+0x30f53000 - 0x30fd5fff  com.apple.framework.IOKit 1.5.1 (???) <5cd67d2ae3fb44fd294d911acc624800> /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+0x30ff3000 - 0x311a4fff  com.apple.CoreGraphics 1.359.13 (???) <91af60a0a1509553e83e0c251de6955f> /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+0x311f3000 - 0x31242fff  CFNetwork ??? (???) <58398b4331ba41db9898f5732564b42e> /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+0x31270000 - 0x312a6fff  OpenGLES ??? (???) <6adf75ded2d38a16b4652688507998f9> /System/Library/Frameworks/OpenGLES.framework/OpenGLES
+0x312b2000 - 0x31376fff  JavaScriptCore ??? (???) <f9daf2d641e66371cdf27c00d6ab6fd5> /System/Library/PrivateFrameworks/JavaScriptCore.framework/JavaScriptCore
+0x313f6000 - 0x3151dfff  libSystem.B.dylib ??? (???) <5c5580ef95a9c9ef2b1732810c6b42d9> /usr/lib/libSystem.B.dylib
+0x31560000 - 0x3156bfff  GraphicsServices ??? (???) <eb9c252fc6a3e1b7cc9cc063e28a9c2b> /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+0x31587000 - 0x315bcfff  Security ??? (???) <341a1a221b2e230e5357ca8a6a3df619> /System/Library/Frameworks/Security.framework/Security
+0x315d5000 - 0x31682fff  ImageIO ??? (???) <3ef9a43674899baf313d59ed8c8a60be> /System/Library/PrivateFrameworks/ImageIO.framework/ImageIO
+0x3181e000 - 0x3184bfff  SystemConfiguration ??? (???) <2b04741c17eec1c9bf007e61d009498f> /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+0x31942000 - 0x319b2fff  CoreAudio ??? (???) <dc7830cab5dc02ee6959a4e0a6fbd48d> /System/Library/Frameworks/CoreAudio.framework/CoreAudio
+0x31ad0000 - 0x31aeafff  AddressBook ??? (???) <c33e542288260f7a0702e8747031676c> /System/Library/Frameworks/AddressBook.framework/AddressBook
+0x31bc9000 - 0x31bcefff  MBX2D ??? (???) <3b9952e62fa5d88145978ded42680b10> /System/Library/PrivateFrameworks/MBX2D.framework/MBX2D
+0x31bd2000 - 0x31bd3fff  MBXConnect ??? (???) <f4600ce51baeb9b5b7e21330edd140c5> /System/Library/PrivateFrameworks/MBXConnect.framework/MBXConnect
+0x31dc9000 - 0x31e48fff  QuartzCore ??? (???) <4448e633acecdaa7f07eb934354b3f9e> /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+0x31e81000 - 0x31e83fff  CoreSurface ??? (???) <ac46a6ef9ac5729ff35cc4d1b36083a6> /System/Library/PrivateFrameworks/CoreSurface.framework/CoreSurface
+0x31e88000 - 0x31e89fff  IOMobileFramebuffer ??? (???) <667b5100ceccef2675f9cf9d1f9e22cc> /System/Library/PrivateFrameworks/IOMobileFramebuffer.framework/IOMobileFramebuffer
+0x3213a000 - 0x3221ffff  libicucore.A.dylib ??? (???) <0838c943ef27ee1083f32ba194a8e5a8> /usr/lib/libicucore.A.dylib
+0x32405000 - 0x324d6fff  libxml2.2.dylib ??? (???) <b3dfa1a684b769043734596245b3f6ea> /usr/lib/libxml2.2.dylib
+0x325e8000 - 0x32c79fff  WebCore ??? (???) <5d51b233dcb6858d36149d93aad1e5ae> /System/Library/PrivateFrameworks/WebCore.framework/WebCore
+0x32fba000 - 0x3303ffff  WebKit ??? (???) <59aedf41f594ec62225162ecc71d3d62> /System/Library/PrivateFrameworks/WebKit.framework/WebKit
+0x333f2000 - 0x33430fff  libCGFreetype.A.dylib ??? (???) <2092f0c11da89c3d1bb9cea6af3581bb> /System/Library/Frameworks/CoreGraphics.framework/Resources/libCGFreetype.A.dylib
+0x33cb6000 - 0x33cd8fff  libRIP.A.dylib ??? (???) <a92509ccf396b2120f0997ba64fc5652> /System/Library/Frameworks/CoreGraphics.framework/Resources/libRIP.A.dylib
+0x33cfe000 - 0x33d04fff  SpringBoardServices ??? (???) <b7c36452c1bdd6ccc65ce009886b2221> /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+0x344da000 - 0x344f7fff  libresolv.9.dylib ??? (???) <0b9d3c8f50dad1492168540dd59cd390> /usr/lib/libresolv.9.dylib
+0x34872000 - 0x3498bfff  AudioToolbox ??? (???) <fd7cbdd8f54bf29baaaabda5311fa0d1> /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+0x34d01000 - 0x34d04fff  AVFoundation ??? (???) <21bb04b259127074cafc1fe58335bc79> /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+

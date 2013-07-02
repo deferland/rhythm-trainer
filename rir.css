@@ -1,0 +1,29 @@
+body {
+	background-color: white;
+	color: black;
+	margin: 0px 0px 0px 0px; 
+}
+ 
+p {
+    font-size: 9px;
+    font-family: Helvetica; 
+    color: #000000;
+    margin: 9px 9px 0px 9px; 
+}
+ 
+li {
+    font-size: 9px;
+    font-family: Helvetica; 
+    color: #000000;
+    margin: 4px 4px 0px 4px; 
+}
+
+h1 {
+	text-align: center;
+}
+
+a.button {
+  display: block;
+  overflow: hidden;
+}
+ 
